@@ -7,12 +7,36 @@ body {
 }
 
 .inbox {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  background: #f4e06d;
+  border-radius: 10px;
+  box-shadow: 4px 4px 20px 3px #f4e06d64;
+  margin: 87px auto;
+  max-width: 400px;
 }
 
 .item {
-  background: #f4e06d;
-  align-self: center;
+  align-items: center;
+  border-bottom: 1px solid #ff73966c;
+  display: flex;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked + label {
+  color: #c499ba;
+  text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+label {
+  border-left: 1px solid #ff7396;
+  flex: 1;
+  font-size: 20px;
+  padding: 20px;
+  transition: color ease-in-out 0.3s;
 }
