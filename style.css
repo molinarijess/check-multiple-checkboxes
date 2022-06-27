@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Joan&display=swap");
+
+body {
+  background: #ffffde;
+  font-family: "Joan", serif;
+  margin: 0;
+}
+
+.inbox {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item {
+  background: #f4e06d;
+}
