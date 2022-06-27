@@ -7,7 +7,6 @@ body {
 }
 
 .inbox {
-  align-self: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,4 +14,5 @@ body {
 
 .item {
   background: #f4e06d;
+  align-self: center;
 }
